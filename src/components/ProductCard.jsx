@@ -1,24 +1,27 @@
-import './ProductCard.css';
+import "./ProductCard.css";
 
 // Simple emoji icon map — replace the whole icon block with <img> tags
 // once you have real product photos.
 const icons = {
-  snowflake: '❄',
-  moon: '☾',
-  sun: '☀',
-  flame: '🔥',
-  flower: '✿',
-  droplet: '💧',
-  cocktail: '🍹',
-  'moon-stars': '✦',
-  leaf: '🍂',
+  snowflake: "❄",
+  moon: "☾",
+  sun: "☀",
+  flame: "🔥",
+  flower: "✿",
+  droplet: "💧",
+  cocktail: "🍹",
+  "moon-stars": "✦",
+  leaf: "🍂",
+  tangerine: "🍊",
+  strawberry: "🍓",
+  watermelon: "🍉",
 };
 
 export default function ProductCard({ product }) {
   return (
     <div className="product-card">
       <div className="product-image">
-        <span className="product-icon">{icons[product.icon] || '☾'}</span>
+        <span className="product-icon">{icons[product.icon] || "☾"}</span>
       </div>
       <div className="product-body">
         <h3 className="product-name">{product.name}</h3>

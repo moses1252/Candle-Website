@@ -1,12 +1,12 @@
-import './About.css';
+import "./About.css";
 
 const careSteps = [
-  'Allow enough time for the wax to melt completely to the edges of the container to prevent tunneling.',
+  "Allow enough time for the wax to melt completely to the edges of the container to prevent tunneling.",
   'Trim the wick to 1/4" tall before you relight your candle to keep the wax clean and burning nicely.',
-  'Avoid burning your candle for more than 3 to 4 hours at a time.',
-  'Never leave a burning candle unattended; extinguish it before leaving the room.',
-  'Keep candles out of the reach of children and pets.',
-  'Place candles on a stable, heat-resistant surface away from flammable objects.',
+  "Avoid burning your candle for more than 3 to 4 hours at a time.",
+  "Never leave a burning candle unattended; extinguish it before leaving the room.",
+  "Keep candles out of the reach of children and pets.",
+  "Place candles on a stable, heat-resistant surface away from flammable objects.",
 ];
 
 export default function About() {
@@ -25,7 +25,7 @@ export default function About() {
               we all look up at the same moon and shine beneath the same sky.
             </p>
             <p>
-              Moon's Candles 24.7 was created with that feeling in mind — that
+              Moon's Candles 24.7 was created with that feeling in mind that
               even in the darkest moments, there is always a light to guide us.
             </p>
             <p className="about-signature">— yaya</p>

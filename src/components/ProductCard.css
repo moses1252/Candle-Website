@@ -3,7 +3,10 @@
   border-radius: 10px;
   overflow: hidden;
   background: var(--bg-alt);
-  transition: transform 0.2s ease, border-color 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+  user-select: none;
 }
 .product-card:hover {
   transform: translateY(-4px);
@@ -16,8 +19,14 @@
   align-items: center;
   justify-content: center;
 }
-.product-icon { font-size: 40px; color: var(--gold-light); }
-.product-body { padding: 16px 18px; }
+.product-icon {
+  font-size: 40px;
+  color: var(--gold-light);
+  user-select: none;
+}
+.product-body {
+  padding: 16px 18px;
+}
 .product-name {
   font-family: var(--font-serif);
   font-size: 19px;

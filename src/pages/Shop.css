@@ -1,6 +1,13 @@
-.shop { padding: 60px 0 80px; }
-.shop-header { text-align: center; margin-bottom: 44px; }
-.shop-header .section-title { margin: 12px 0; }
+.shop {
+  padding: 60px 0 80px;
+}
+.shop-header {
+  text-align: center;
+  margin-bottom: 44px;
+}
+.shop-header .section-title {
+  margin: 12px 0;
+}
 .shop-sub {
   font-size: 14px;
   color: var(--tan);
@@ -24,10 +31,17 @@
   color: var(--tan);
   margin-bottom: 22px;
 }
+.btn {
+  user-select: none;
+}
 
 @media (max-width: 900px) {
-  .shop-grid { grid-template-columns: repeat(2, 1fr); }
+  .shop-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width: 560px) {
-  .shop-grid { grid-template-columns: 1fr; }
+  .shop-grid {
+    grid-template-columns: 1fr;
+  }
 }
