@@ -1,12 +1,11 @@
 /* Hero */
 .hero {
-  background:
-    radial-gradient(circle at 50% 0%, #1c1a24 0%, var(--bg) 70%);
+  background: radial-gradient(circle at 50% 0%, #1c1a24 0%, var(--bg) 70%);
   border-bottom: 1px solid var(--border);
+  padding: 90px 24px;
 }
 .hero-inner {
   text-align: center;
-  padding: 90px 24px;
 }
 .hero-title {
   font-family: var(--font-serif);
@@ -25,7 +24,9 @@
 }
 
 /* Featured */
-.featured { padding: 70px 0; }
+.featured {
+  padding: 70px 0;
+}
 .featured-pricing {
   text-align: center;
   font-size: 13px;
@@ -38,7 +39,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-.featured-cta { text-align: center; margin-top: 40px; }
+.featured-cta {
+  text-align: center;
+  margin-top: 40px;
+}
 
 /* Story */
 .story {
@@ -47,8 +51,13 @@
   border-bottom: 1px solid var(--border);
   padding: 70px 0;
 }
-.story-inner { text-align: center; }
-.story-moon { font-size: 30px; color: var(--gold-light); }
+.story-inner {
+  text-align: center;
+}
+.story-moon {
+  font-size: 30px;
+  color: var(--gold-light);
+}
 .story-quote {
   font-family: var(--font-serif);
   font-style: italic;
@@ -70,10 +79,15 @@
   font-size: 13px;
   letter-spacing: 1px;
 }
-.story-link:hover { color: var(--gold-light); }
+.story-link:hover {
+  color: var(--gold-light);
+}
 
 /* Instagram CTA */
-.ig-cta { padding: 70px 0; text-align: center; }
+.ig-cta {
+  padding: 70px 0;
+  text-align: center;
+}
 .ig-text {
   font-size: 14px;
   color: var(--tan);
@@ -81,6 +95,10 @@
 }
 
 @media (max-width: 720px) {
-  .hero-title { font-size: 38px; }
-  .featured-grid { grid-template-columns: 1fr; }
+  .hero-title {
+    font-size: 38px;
+  }
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
 }

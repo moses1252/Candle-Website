@@ -1,7 +1,13 @@
-import { Link } from 'react-router-dom';
-import { products, candlePrice, waxMeltPrice, instagram, instagramHandle } from '../data';
-import ProductCard from '../components/ProductCard';
-import './Home.css';
+import { Link } from "react-router-dom";
+import {
+  products,
+  candlePrice,
+  waxMeltPrice,
+  instagram,
+  instagramHandle,
+} from "../data";
+import ProductCard from "../components/ProductCard";
+import "./Home.css";
 
 export default function Home() {
   const featured = products.slice(0, 3);
@@ -12,12 +18,18 @@ export default function Home() {
       <section className="hero">
         <div className="container hero-inner">
           <p className="eyebrow">✦ HAND-POURED SOY CANDLES ✦</p>
-          <h1 className="hero-title">Always a light<br />to guide us</h1>
+          <h1 className="hero-title">
+            Always a light
+            <br />
+            to guide us
+          </h1>
           <p className="hero-sub">
-            Clean-burning candles and wax melts, poured in small batches
-            under the same moon we all share.
+            Clean-burning candles and wax melts, poured in small batches under
+            the same moon we all share.
           </p>
-          <Link to="/shop" className="btn">SHOP THE COLLECTION</Link>
+          <Link to="/shop" className="btn">
+            SHOP THE COLLECTION
+          </Link>
         </div>
       </section>
 
@@ -34,7 +46,9 @@ export default function Home() {
             ))}
           </div>
           <div className="featured-cta">
-            <Link to="/shop" className="btn btn-outline">VIEW ALL SCENTS</Link>
+            <Link to="/shop" className="btn btn-outline">
+              VIEW ALL SCENTS
+            </Link>
           </div>
         </div>
       </section>
@@ -48,7 +62,9 @@ export default function Home() {
             up at the same moon and shine beneath the same sky."
           </p>
           <p className="story-attr">— YAYA, FOUNDER</p>
-          <Link to="/about" className="story-link">Read our story →</Link>
+          <Link to="/about" className="story-link">
+            Read our story →
+          </Link>
         </div>
       </section>
 
